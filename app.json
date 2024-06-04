@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "dzairDiscover",
+    "slug": "dzairDiscover",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "platforms": ["ios", "android"],
+
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.kutami.dzairDiscover"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c0c7f6b3-39d6-4cf9-a77a-22572de9282c"
+      }
+    },
+    "plugins": [
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsDownloadToken": "sk.eyJ1Ijoic3JlZXZlczIyMSIsImEiOiJjbHM5M3VxcDcwM25kMmpvZmg3bmRhbzNlIn0.wcHltgf-llMh4v0aWOYxKQ"
+        }
+      ]
+    ]
+  }
+}
